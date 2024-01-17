@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #5581e0;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    background-color: #2050b7;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #86acff;
+}
+
+
+
+table {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #2050b7;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #5581e0;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2050b7;
+
+}
+
+
+footer {
+    background-color: #5581e0;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
